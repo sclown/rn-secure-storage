@@ -48,12 +48,6 @@ RCT_EXTERN_METHOD(multiRemove:(NSArray *)keys resolver:(RCTPromiseResolveBlock)r
 */
 RCT_EXTERN_METHOD(clear:(RCTPromiseResolveBlock *)resolver rejecter:(RCTPromiseRejectBlock)reject)
 
-/**
-  Get supported biometry type
-*/
-RCT_EXTERN_METHOD(getSupportedBiometryType: (RCTPromiseResolveBlock *)resolver rejecter:(RCTPromiseRejectBlock *)reject)
-
-
 + (BOOL)requiresMainQueueSetup
 {
     return YES;
